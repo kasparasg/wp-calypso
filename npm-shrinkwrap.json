@@ -884,9 +884,9 @@
       }
     },
     "@babel/runtime": {
-      "version": "7.0.0-beta.52",
-      "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.0.0-beta.52.tgz",
-      "integrity": "sha1-PztCuCuStOGig/x43xuy/Uuo0Mc=",
+      "version": "7.0.0-beta.54",
+      "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.0.0-beta.54.tgz",
+      "integrity": "sha1-Oeu0JyP+fKSz4bAOln6AE41Hyt8=",
       "requires": {
         "core-js": "^2.5.7",
         "regenerator-runtime": "^0.12.0"
@@ -1282,24 +1282,26 @@
       }
     },
     "@wordpress/compose": {
-      "version": "1.0.0",
-      "resolved": "https://registry.npmjs.org/@wordpress/compose/-/compose-1.0.0.tgz",
-      "integrity": "sha512-HE7VgmmWzibBR3aO1h33bckxJeRKhK9388MSHQ4Q3UPfWa1VGH360JUuvLhX8Hl5n/TNIfiJUe3+GJ3W+bAE9Q==",
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/@wordpress/compose/-/compose-1.0.1.tgz",
+      "integrity": "sha512-BvopgvFpWWZxCGPmX2jI7ESjhHU8A62pDnI0v+beDO70STmnTrfLfLWA+dfxxTxHLKk666HC6NUUr4AanDEIZA==",
       "requires": {
-        "@wordpress/element": "^1.0.0",
-        "@wordpress/is-shallow-equal": "^1.1.0",
+        "@babel/runtime": "^7.0.0-beta.52",
+        "@wordpress/element": "^1.0.1",
+        "@wordpress/is-shallow-equal": "^1.1.1",
         "lodash": "^4.17.10"
       }
     },
     "@wordpress/data": {
-      "version": "1.0.0",
-      "resolved": "https://registry.npmjs.org/@wordpress/data/-/data-1.0.0.tgz",
-      "integrity": "sha512-cnYfjXGNxDEXcAu8GhfbwWiTAvFEhrcLhcaBnvtTB22078610hDMKVjredGT9loNpJv03KXn6BxOQuVuo9lGHg==",
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/@wordpress/data/-/data-1.0.1.tgz",
+      "integrity": "sha512-LBevjZQnyWHmB4nhLqeIFns1TonmbumKxCHjxM5xfzjtQs6AV41K6yST/2/0pN7q8hBWY/jzUdmVCXWwsrH8yA==",
       "requires": {
-        "@wordpress/compose": "^1.0.0",
-        "@wordpress/deprecated": "^1.0.0",
-        "@wordpress/element": "^1.0.0",
-        "@wordpress/is-shallow-equal": "^1.1.0",
+        "@babel/runtime": "^7.0.0-beta.52",
+        "@wordpress/compose": "^1.0.1",
+        "@wordpress/deprecated": "^1.0.1",
+        "@wordpress/element": "^1.0.1",
+        "@wordpress/is-shallow-equal": "^1.1.1",
         "equivalent-key-map": "^0.2.0",
         "lodash": "^4.17.10",
         "redux": "^3.7.2"
@@ -1319,26 +1321,33 @@
       }
     },
     "@wordpress/deprecated": {
-      "version": "1.0.0",
-      "resolved": "https://registry.npmjs.org/@wordpress/deprecated/-/deprecated-1.0.0.tgz",
-      "integrity": "sha512-khXMnZmx+ev0ID3iucqcGjaJElurYKqqu9BBVuo/gwg8qwYUo+dkOBabHcoxpthSVzfAcif2C1ahkU7ojxpaVg=="
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/@wordpress/deprecated/-/deprecated-1.0.1.tgz",
+      "integrity": "sha512-o99RsKIteL2lJAXoM7su7SLstTjhnNBszuaRMnii4pdAORN6Li4zYNNvbJABIctCVGgW2jPJE9IYNToxIsG/EQ==",
+      "requires": {
+        "@babel/runtime": "^7.0.0-beta.52"
+      }
     },
     "@wordpress/element": {
-      "version": "1.0.0",
-      "resolved": "https://registry.npmjs.org/@wordpress/element/-/element-1.0.0.tgz",
-      "integrity": "sha512-zvjGC5yzRM4gfyv9EmotqrkYuhyPkw9YVqGrf5djyuGyBt5SmzHtzXc9Xn2V+mJt+KFz60Ae3Kixux8BDnB3ug==",
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/@wordpress/element/-/element-1.0.1.tgz",
+      "integrity": "sha512-KbIS/IB1+iSE4+pTzCxcRLOqo6I6VfolBmb0HdgT+dNYqcQL0HGNnbKR5sSU1VhGP8SmXFUab0D+xY5Zr5aZug==",
       "requires": {
-        "@wordpress/deprecated": "^1.0.0",
-        "@wordpress/is-shallow-equal": "^1.1.0",
+        "@babel/runtime": "^7.0.0-beta.52",
+        "@wordpress/deprecated": "^1.0.1",
+        "@wordpress/is-shallow-equal": "^1.1.1",
         "lodash": "^4.17.10",
         "react": "^16.4.1",
         "react-dom": "^16.4.1"
       }
     },
     "@wordpress/is-shallow-equal": {
-      "version": "1.1.0",
-      "resolved": "https://registry.npmjs.org/@wordpress/is-shallow-equal/-/is-shallow-equal-1.1.0.tgz",
-      "integrity": "sha512-pJ7oAGWlxv6CHF4oAyCJV2KMGXVbS89o4zPKXSgllMOUgUq+KGPGtfNLG3jH9f71jIBZtd8QHKSyHIOdIyF0mg=="
+      "version": "1.1.1",
+      "resolved": "https://registry.npmjs.org/@wordpress/is-shallow-equal/-/is-shallow-equal-1.1.1.tgz",
+      "integrity": "sha512-t5zQ4/uDvk+6YbiqhRZtjuZnpdu/mKUryTChn/nM292lEvSSpqPGrfnDIL11htK0U3Oug9OgwXAOER5zd+xRGQ==",
+      "requires": {
+        "@babel/runtime": "^7.0.0-beta.52"
+      }
     },
     "abab": {
       "version": "1.0.4",
